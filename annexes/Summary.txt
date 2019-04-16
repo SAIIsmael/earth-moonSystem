@@ -1,0 +1,54 @@
+Suite à la lecture des rapports des années précédentes,
+voici les informations essentielles que nous avons retenu:
+
+
+En premier lieu, nous avons remarqué que tous les groupes ont utilisé la bibliothèque OpenGL (sans SDL).
+
+
+Nous avons relevé des caractèristiques sur la Terre et la Lune sous forme de données physiques 
+qui ont permis de mener à bien le projet.
+
+Terre :
+Diamètre : 12742 km
+Période de rotation : 23,93heures
+Masse : 5,976*10²⁴
+Vitesse : 29,78km/s
+Inclinaison : 23,45deg
+Dentisé : 5,52*10³
+
+Lune :
+Diamètre : 3474km
+Période de révolution : 27,3 jours
+Masse : 7,35*10²²
+Vitesse : 3680km/s
+Inclinaison : 5,9deg
+Dentisé : 3,344
+
+
+Formule physique importante pour le projet :
+
+F= G*m1*m2/|r|² * r où F représente la force d'attraction gravitationnelle
+a= F/m  a l'accelèration
+S= S0+v0*t+a*t/2 S la position d'une sphère 
+v= v0+a*t v la vitesse.
+
+On remarque qu'il y a des similitudes entre la Terre et la Lune, de ce fait, les deux groupes ont fait 
+le choix d'utiliser une structure générique afin de représenter les planètes.
+
+Voici le fonctionnement général assez similaire pour les deux groupes:
+Au demarrage du système, les informations initiales telles que la masse, la vitesse et la position initiale
+de la Terre et de la Lune sont connues.
+Ensuite, le programme calcule la force gravitationelle, puis l’accelaration de la lune.
+Grâce à l’accèleration de la lune, le programme fixe la position de la Lune, 
+puis l'accèleration est à nouveau  modifiée, et ainsi de suite. 
+On constate donc qu'il y a une boucle infinie. 
+
+
+Au niveau graphique, 
+il y a d'abord la création d'une fenêtre OpenGL. Elle est ensuite initialisée. (taille etc)
+Dans cette fenêtre, la Terre et la Lune sont représentées sous forme de sphères (on note que le second groupe
+a essayé d'utiliser des textures en vue d'avoir un rendu plus réaliste).
+
+Pour conclure, nous pouvons dire que les deux versions antécedantes sont grandement similaires.
+Nous envisageons d'utiliser le langage de programmation C++ et nous privilègerons l'utilisation de SDL qui est
+plus complète.

@@ -1,0 +1,47 @@
+Résumé rapport : 
+
+Precisions sur le projet : 
+
+La distance entre la Terre et la Lune est d’approximativement 384 460 km. La période de rotation de la Lune est d’environs 27,3 jours. De la Terre, nous pouvons obserbver la même face de
+1a Lune tous l0es 29,5 jours.
+Le diamètre de la Terre est de 12 700 km et à la meme période de révolution de la Lune : 23,93jours
+
+Caractéristiques de la Terre et de la Lune :
+
+Terre :
+Diamètre : 12700km
+Période de révolution : 23,93heures
+Masse :5,976*10²⁴
+Vitesse:29,78km/s
+Inclinaison:23,45deg
+Dentisé:5,52*10³
+
+Lune :
+Diamètre : 3474km
+Période de révolution : 23,93heures
+Masse :7,35*10²²
+Vitesse:3680km/s
+Inclinaison:5,9deg
+Dentisé:3,344
+
+
+Formule physique importante pour le projet :
+
+F= G*m1*m2/|r|² * r
+a= F/m
+S= S0+v0*t+a*t/2
+v= v0+a*t
+
+
+Comment le Système devrais marcher du point de vue physique :
+
+Le système démarre, le programme calcul la force gravitationelle, puis l’accelaration de la lune. Grace à l’acceleration de la lune, la position de la lune pourra mettre la position de la Lune, puis l’acceleration de la lune sera modifier, et ainsi de suite. Il faudra donc faire une boucle infini. Biensûr au demarrage du système il faudra entrer les informations initiales tel que la masse, la vitesse et la position initiale de la Terre et de la Lune.
+
+
+Et du point de vue graphique :
+
+-Une classe qui representera une planète, avec les caractèrisque de base
+-Crée une fenetre
+-Initialisé cette fenetre
+-Representer les planètes grace a des sphères ( possibilité de mettre des textures )
+-Crée le mouvement grace a des methodes qui modifieront les attributs de la planètes.

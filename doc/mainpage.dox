@@ -1,0 +1,19 @@
+/**
+\mainpage Projet Terre et Lune
+##Objectifs
+
+Ce TER a pour objectifs la réalisation d'un programme permettant la visualisation de la rotation de la lune autour de la terre selon le plan suivant:
+
+- l'analyse d'un programme existant dans ce domaine, par exemple, le programme réalisé en 2011/2012 par des étudiants de L2 en Informatique accessible ici.
+- la conception et le développement d'un programme permettant l'affichage de la rotation de la Lune autour de la Terre ainsi que quelques interactions utiles à son exploration.
+- la conception d'une fonctionnalité supplémentaire de votre choix et son développement, si le temps le permet.
+
+##Détails du travail à réaliser:
+
+- Ecrire un programme qui calcule le mouvement de la lune autour de la terre. Pour simplifier, on fera l'hypothèse que le mouvement décrit une orbite circulaire uniforme.
+- Afficher la lune et la terre avec la rotation de la lune autour de la terre.
+- Eclairage: ajouter une source lumineuse à l'infini
+- Faire en sorte que les paramètres du modèle (masse, accélération, rayon terre/ lune, distance terre lune) puissent être facilement modifiés
+- Choisir la fonctionnalité supplémentaire à ajouter: ajout de textures, simulations sur des modifications des paramètres : vitesse, masses, etc.
+
+*/
